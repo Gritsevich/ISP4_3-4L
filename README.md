@@ -5,6 +5,7 @@ Docker-образ: https://hub.docker.com/repository/docker/onyx11/flask_site
 Запуск:
 
 docker-compose pull
+
 docker-compose up
 
 С помощью pull тянем с докерхаба образы, связанные с сервисом: mysql и flask_site
@@ -16,4 +17,5 @@ docker-compose up
 Остановить сайт:
 
 docker-compose down    (без удаления БД)
+
 docker-compose down -v (с удалением БД)
