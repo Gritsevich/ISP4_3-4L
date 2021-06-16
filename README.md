@@ -1,6 +1,6 @@
 Lab3-4
 
-Docker-образ: https://hub.docker.com/repository/docker/onyx11/flask_site
+Docker-образ: https://hub.docker.com/repository/docker/rina/flask_site
 
 Запуск:
 
