@@ -15,11 +15,11 @@ class DevelopmentConfig(Config):
 
     SESSION_COOKIE_SECURE = False
     
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://onyx:coolPass123@localhost/flask_app'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://rina:coolPass123@localhost/flask_app'
 
 class TestingConfig(Config):
     TESTING = True
     
     SESSION_COOKIE_SECURE = False
     
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://onyx:coolPass123@localhost/test_flask_app'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://rina:coolPass123@localhost/test_flask_app'
